@@ -1,7 +1,7 @@
 ARG HTML_ENDPOINT="/var/www/html/"
 
 # Composer dependencies
-FROM composer:2.8.6 AS composer-builder
+FROM composer:lts AS composer-builder
 
 ARG HTML_ENDPOINT
 

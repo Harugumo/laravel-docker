@@ -9,7 +9,7 @@ services:
     build:
       context: ./
       dockerfile: nginx.Dockerfile
-    container_name: web-nginx
+    container_name: web
     environment:
       TARGET_HOST: php
       TARGET_PORT: 9000
